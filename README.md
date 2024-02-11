@@ -24,14 +24,6 @@ These tests were collected with the following GPU and Nvidia configuration.
 Speed per number of elements in matrices. Operations with **odd** sized dimensions are slighlty slower.
 ![FFTShift2D Time](Images/fftshift2D_times.png)
 ![FFTShift2D LogTime](Images/fftshift2D_times_log.png)
-### Surface plots
-
-:-----------------:|:-----------------:|
-![FFTShift2D Even\|Even](Images/fftshift2D_Even_Even.png) | ![FFTShift2D Even\|Odd](Images/fftshift2D_Even_Odd.png)
-
-:-----------------:|:-----------------:|
-![FFTShift2D Odd\|Even](Images/fftshift2D_Odd_Even.png) | ![FFTShift2D Odd\|Odd](Images/fftshift2D_Odd_Odd.png)
-
 
 Surface
 ## License
