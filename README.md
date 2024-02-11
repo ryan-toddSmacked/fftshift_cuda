@@ -8,9 +8,7 @@ For dimensions that have an odd number of elements, it follows MATLABs logic and
 
 | Input        | Operation   | Result      |
 |:------------:|:-----------:|:-----------:|
-| | 1, 2, 3, 4, 5 | | Shift Width | [ 4, 5, 1, 2, 3 ] |
-| [ 1, 2, 3, 4 ] | Shift Width | [ 3, 4, 1, 2 ] |
-| [ 1, 2, 3, 4]
+| [ 1, 2, 3, 4]\[ 5, 6, 7, 8 ] | Shift Width | [ 3, 4, 1, 2 ]\[ 7, 8, 5, 6 ] |
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
