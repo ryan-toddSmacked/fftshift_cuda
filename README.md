@@ -25,6 +25,5 @@ Speed per number of elements in matrices. Operations with **odd** sized dimensio
 ![FFTShift2D Time](Images/fftshift2D_times.png)
 ![FFTShift2D LogTime](Images/fftshift2D_times_log.png)
 
-Surface
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
