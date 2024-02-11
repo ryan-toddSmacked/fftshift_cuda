@@ -16,8 +16,21 @@ For dimensions that have an odd number of elements, it follows MATLABs logic and
 | \| 1, 2, 3, 4 \|<br />\| 5, 6, 7, 8 \| | Shift Both | \| 7, 8, 5, 6 \|<br />\| 3, 4, 1, 2 \| |
 
 ## Speed
-Surface plot showing speed of operation of matrices with dimensions that are both even.
+These tests were collected with the following GPU and Nvidia configuration.\
+* Driver Version: 545.29.06
+* CUDA Version: 12.3
+* GPU: NVIDIA GeForce RTX 4070
+Speed per number of elements in matrices. Operations with **odd** sized dimensions are slighlty slower.
+![FFTShift2D Time](Images/fftshift2D_times.png)
+![FFTShift2D LogTime](Images/fftshift2D_times_log.png)
+Surface plots show speed of operation of matrices.\
+The titles indicate if the dimensions used for the test were even or odd.
 ![FFTShift2D Even\|Even](Images/fftshift2D_Even_Even.png)
+![FFTShift2D Even\|Odd](Images/fftshift2D_Even_Odd.png)
+![FFTShift2D Odd\|Even](Images/fftshift2D_Odd_Even.png)
+![FFTShift2D Odd\|Odd](Images/fftshift2D_Odd_Odd.png)
 
+
+Surface
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
