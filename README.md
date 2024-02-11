@@ -25,11 +25,10 @@ Speed per number of elements in matrices. Operations with **odd** sized dimensio
 ![FFTShift2D Time](Images/fftshift2D_times.png)
 ![FFTShift2D LogTime](Images/fftshift2D_times_log.png)
 ### Surface plots
-|Even-Even         | Even-Odd         |
+
 :-----------------:|:-----------------:|
 ![FFTShift2D Even\|Even](Images/fftshift2D_Even_Even.png) | ![FFTShift2D Even\|Odd](Images/fftshift2D_Even_Odd.png)
 
-|Odd-Even          | Odd-Odd           |
 :-----------------:|:-----------------:|
 ![FFTShift2D Odd\|Even](Images/fftshift2D_Odd_Even.png) | ![FFTShift2D Odd\|Odd](Images/fftshift2D_Odd_Odd.png)
 
